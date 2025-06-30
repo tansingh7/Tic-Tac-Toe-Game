@@ -31,10 +31,15 @@ boxes.forEach((box) => {
       //playerO
       box.innerText = "O";
       turnO = false;
+      if(box.innerText==="O"){
+      box.style.color="blue";
     } else {
       //playerX
       box.innerText = "X";
       turnO = true;
+      if(box.innerText==="X"){
+      box.style.color="#b0c4b1"
+    }
     }
     box.disabled = true;
     count++;
