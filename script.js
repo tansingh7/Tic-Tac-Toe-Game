@@ -33,7 +33,7 @@ boxes.forEach((box) => {
       turnO = false;
       if(box.innerText==="O"){
       box.style.color="blue";
-    } else {
+    }} else {
       //playerX
       box.innerText = "X";
       turnO = true;
